@@ -1,0 +1,112 @@
+@import 'header.scss'; 
+@import 'fonts.scss';
+@import 'footer.scss';
+body{
+	margin: 0px;
+	background-color: #282828;
+}
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.contacts{
+	background-color: #f8f7f7;
+	h3{
+		margin:0;
+		padding: 50px 100px;
+		font-family: monreg;
+		font-size: 52px;
+	}
+	.contacts__flex{
+		padding: 0 100px 100px 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+		.contacts__city{
+			position: relative;
+			height: 470px;
+			h4{
+				font-family: monlight;
+				font-size: 30px;
+				line-height: 40px;
+			}
+			p{
+				font-family: monlight;
+				font-size: 16px;
+				line-height: 30px;
+			}
+			a{
+				text-decoration: none;
+				color: #fff;
+				background-color: #000;
+				font-family: monbold;
+				padding: 15px 45px;
+				text-transform: uppercase;
+				position: absolute;
+				bottom: 10px;
+			}
+		}
+	}
+}
+.ask{
+	background-image: url(../img/pay_ask_us.jpg);
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	.ask__q{
+		display: inline-block;
+		width: 400px;
+		h3{
+			color: #fff;
+			font-family: monreg;
+			font-size:52px;
+			margin: 0;
+		}
+		p{
+			color: #fff;
+			font-family: monreg;
+			font-size:18px;
+			margin-top: 30px;
+		}
+	}
+	.ask__form{
+		display: inline-block;
+		width: 415px;
+		height: 350px;
+		background-color: #fff;
+		margin: 90px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		input{
+			display: block;
+			border: none;
+			width: 275px;
+			border-bottom: 1px solid black;
+			margin-top: 35px;
+		}
+		.ask__submit{
+			font-family: monbold;
+			font-size: 16px;
+			text-align: right;
+			background-color: #fff;
+			border: none;
+			cursor: pointer;
+		}
+	}
+}
+.header{
+	background-color:#f8f7f7;
+	.header__button{
+	background-color:#000;
+	color: #fff;
+
+}
+.header__contacts{
+	color: #000;
+}
+}
