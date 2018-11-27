@@ -489,7 +489,7 @@ body {
     font-family: monlight;
     font-size: 16px;
     line-height: 24px;
-    margin: 15px 30px; }
+    margin: 15px 140px; }
   .all h4 {
     font-family: monreg;
     font-size: 24px;
@@ -544,7 +544,9 @@ body {
       margin: 10px 0 20px 10px;
       padding-left: 50px;
       line-height: 24px;
-      list-style: square; } }
+      list-style: square; }
+    .all p {
+      margin-left: 30px; } }
 
 .ask {
   background-image: url(../img/pay_ask_us.jpg);
