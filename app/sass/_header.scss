@@ -103,3 +103,18 @@
 	}
 }
 }
+
+@media (min-width: 320px) and (max-width: 767px) { 
+.header__element6 {
+    display: none;
+}
+.header__element2 {
+    display: none;
+}
+.header__element1 {
+   display:none;
+}
+.header {
+    grid-template-columns: 30fr 70fr 100fr 70fr 190fr 51fr 0fr 100fr 100fr 100fr 100fr 40fr 0fr 0fr;
+}
+}

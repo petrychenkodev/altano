@@ -361,3 +361,126 @@ h4{
 	color: #000;
 }
 }
+//section media
+
+@media only screen and (max-width: 1278px) { 
+		body{
+	margin: 0px;
+	background-color: #f8f7f7;
+}
+.container {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.catalog__header {
+    display: block;
+    margin-bottom:-2px;
+}
+.bread ul {
+    margin-left: 30px;
+}
+.catalog__header .arrow_back_with_line {
+    margin-left: 30px;
+    margin-top: 25px;
+    display: block;
+}
+
+.catalog__header h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 75px;
+    width: 67%;
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #f8f7f7; */
+    /* display: grid; */
+    /* grid-template-columns: 140fr 1140fr; */
+    /* grid-gap: 30px; */
+    padding-top: 20px;
+    main{
+    	margin: 0 30px;
+    }
+}
+.catalog .catalog__group {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+aside{
+display: none;	
+}
+.catalog .catalog__sort {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+.about__why {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -2px;
+}
+}
+
+//section media
+
+	@media only screen and (max-width: 767px) { 
+.container {
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+.bread ul {
+    margin-left: 20px;
+}
+.catalog__header h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 40px;
+    width: auto;
+    font-size: 30px;
+}
+.catalog__header a {
+    display: none;
+}
+.catalog main {
+    margin: 0 20px;
+}
+.catalog .catalog__sort {
+    display: block;
+    width: 330px;
+}
+.catalog .catalog__sort p {
+    margin-bottom: 10px;
+}
+.catalog .catalog__sort p a {
+    margin-right: 5px;
+}
+.catalog .catalog__group {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -9px;
+}
+.catalog .catalog__group .catalog__group__box {
+    width: 300px;
+    height: 445px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 30px;
+}
+}
