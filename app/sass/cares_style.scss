@@ -1,0 +1,271 @@
+@import 'header.scss'; 
+@import 'fonts.scss';
+@import 'footer.scss';
+body{
+	margin: 0px;
+	background-color: #282828;
+}
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.bread{
+	background-color: #f8f7f7;
+}
+.bread{
+	ul{
+		padding: 0;
+		margin: 0;
+		margin-left: 30px;
+		li{
+		display: inline;
+		a{
+			padding: 0;
+			margin: 0;
+			font-family: monreg;
+			font-size: 12px;
+			text-decoration: none;
+			color: #bbbaba;
+			background-color: #f8f7f7;
+			text-transform: none;
+			img{
+				padding-bottom:3px;
+				padding-left:10px;
+				padding-right: 10px;
+			}
+		}
+		}
+	}
+	.bread__last{
+		color: #000;
+	}
+}
+
+.all{
+	.all__flex{
+		display: flex;
+		aside{
+			ul{
+				margin-left: 30px;
+				margin-right: 0;
+				padding-right: 40px;
+				border-right: 1px solid grey;
+				li{
+					list-style: none;
+					a{
+						font-size: 16px;
+					font-family: monreg;
+					text-decoration: none;
+					color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+h3.all__naming{
+    font-family: monreg;
+    font-size: 52px;
+    padding-top: 35px;
+    margin: 0px 0 60px 100px;
+}
+.all .all__flex aside ul li {
+    padding-left: 0;
+}
+.all h5 {
+    font-family: monreg;
+    font-size: 18px;
+    margin: 35px 0 30px 0px;
+}
+.all ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 17px;
+    margin-right: 100px;
+}
+main{
+	margin-left: 30px;
+	p{
+		font-size: 16px;
+		font-family: monlight;
+		margin-right: 100px;
+	}
+}
+h2{
+		font-size: 36px;
+		font-family: monlight;
+		width: 570px;
+		margin-top: 80px;
+		margin-bottom: 30px;
+		position: relative;
+}
+.products{
+	margin-left: 286px;
+}
+.catalog__group{
+		margin: 0;
+		padding: 0;
+		margin-right: 130px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		.catalog__group__box{
+			width: 270px;
+			height: 445px;
+			background-color: #fff;
+			position: relative;
+			margin-bottom: 30px;
+			img{
+				display: block;
+				height:170px;
+				margin: 0 auto;
+				padding: 30px 0;
+			}
+			.box__naming{
+				margin: 0;
+				padding: 0;
+				font-family: monlight;
+				font-size: 18px;
+				margin-left: 35px;
+				margin-bottom: 15px;
+			}
+			.box__availability{
+				margin: 0;
+				padding: 0;
+				font-family: monlight;
+				font-size:12px;
+				margin-left: 35px;
+			}
+			.box__price{
+				position: absolute;
+				bottom: 75px;
+				left: 35px;
+				font-family:monlight;
+				font-size: 16px;
+			}
+			a{
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: monsemibold;
+				font-size: 12px;
+				color: #fff;
+				background-color: #000;
+				padding: 15px 60px;
+				position: absolute;
+				left: 35px;
+				bottom: 30px;
+			}
+		}
+	}
+
+.about{
+	padding: 100px 0;
+}
+.all .all__flex aside ul {
+    width: 183px;
+}
+
+	//section media
+@media only screen and (max-width: 1278px) { 
+		body{
+	margin: 0px;
+	background-color: #f8f7f7;
+}
+.container {
+  max-width: 768px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+.all ul {
+    margin-right: 30px;
+}
+main p {
+    margin-right: 30px;
+}
+.products {
+    margin-left: 30px;
+}
+.catalog__group {
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.catalog__group .catalog__group__box {
+    width: 230px;
+}
+.catalog__group .catalog__group__box .box__naming {
+    margin-left: 15px;
+}
+.catalog__group .catalog__group__box .box__availability {
+    margin-left: 15px;
+}
+.catalog__group .catalog__group__box .box__price {
+    left: 15px;
+}
+.catalog__group .catalog__group__box a {
+    padding: 15px 45px;
+}
+.about{
+	padding: 100px 0;
+}
+}
+
+@media only screen and (max-width: 767px) { 
+.container {
+    max-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+.bread ul {
+    margin-left: 20px;
+}
+h3.all__naming {
+    font-family: monreg;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0px 0 30px 20px;
+}
+.all .all__flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.all .all__flex aside ul {
+    margin-left: 20px;
+    margin-right: 0;
+    padding-right: 40px;
+    border-right: none;
+    border-bottom: 1px solid grey;
+}
+main {
+    margin-left: 20px;
+}
+h2 {
+    font-size: 24px;
+    font-family: monlight;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.products {
+    margin-left: 20px;
+}
+.none__320{
+	display: none;
+}
+.catalog__group .catalog__group__box {
+    width: 230px;
+    margin-left: 25px;
+}
+.about__why {
+    display: block;
+    padding-top: 145px;
+}
+}
